@@ -19,3 +19,4 @@ jobs:
         uses: actions/checkout@v1
       - name: 'Run active' # 步骤二，执行sh命令文件
         run: bash ./active.sh
+        run: bash ./checkin.sh
