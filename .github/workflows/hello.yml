@@ -3,7 +3,7 @@ name: hello github actions
 on:
   push:
   schedule:
-    - cron: '* * * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   bot:
