@@ -1,5 +1,5 @@
 #!/bin/bash
-key="SCU125905T704c126be149e902736d8c7838bf53235facad0415b81"
+key=""
 
 airinfo=$(curl -s "http://www.pm25.in/api/querys/aqis_by_station.json?token=5j1znBVAsnSf5xQyNQyq&station_code=1336A")
 airinfo=$(echo ${airinfo#\[}) && airinfo=$(echo ${airinfo%\]})
