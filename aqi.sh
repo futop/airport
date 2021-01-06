@@ -1,5 +1,5 @@
 #!/bin/bash
-key=""
+key="process.env.PUSH_KEY"
 
 airinfo=$(curl -s "http://www.pm25.in/api/querys/aqis_by_station.json?token=5j1znBVAsnSf5xQyNQyq&station_code=1336A")
 airinfo=$(echo ${airinfo#\[}) && airinfo=$(echo ${airinfo%\]})
