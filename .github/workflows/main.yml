@@ -23,3 +23,5 @@ jobs:
         run: bash ./active.sh
       - name: 'Run checkin'
         run: bash ./checkin.sh
+        env:
+          PUSH_KEY: ${{ secrets.PUSH_KEY || github.event.client_payload.PUSH_KEY }}
