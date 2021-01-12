@@ -15,8 +15,8 @@ curl 'https://www.wiougong.space/user/checkin' \
   -H 'referer: https://www.wiougong.space/user' \
   -H 'accept-language: zh-CN,zh;q=0.9,en;q=0.8' \
   -H 'cookie: __cfduid=dee91a3442f1df2edb7d9be2ecfd9773f1607581097; lang=zh-cn; _ga=GA1.2.146386129.1607862533; uid=22107; email=fuyz1993%40gmail.com; key=eafe2b5944526eb85bfa274184849d7684cce83a8696b; ip=ec23b52c78662421a106d17310fea33a; expire_in=1609745717' \
-  --compressed
-  &&
+  --compressed \
+  &
   curl 'https://v2.freeyes.xyz/user/checkin' \
   -X 'POST' \
   -H 'authority: v2.freeyes.xyz' \
